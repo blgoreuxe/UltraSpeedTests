@@ -23,6 +23,7 @@ document.addEventListener("keydown", function(event) {
                     clearInterval(inverval_timer);
                     let cps = score/10
                     alert("You got a score of " + score + "\nYour CPS is " + cps)
+                    document.getElementById("past").textContent = "In your last game you got a CPS of " + cps + " and a score of " + score
                     game = false;
                     document.getElementById("prompt").style.visibility = "visible"
                 }
