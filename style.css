@@ -3,7 +3,7 @@ body {
 }
 
 .spacebutton {
-    font-size: 20px;
+    font-size: 25px;
     border-radius: 40px;
     background-color: black;
     color: white;
@@ -11,9 +11,23 @@ body {
 }
 
 .mousebutton {
-    font-size: 20px;
+    font-size: 25px;
     border-radius: 40px;
     background-color: black;
     color: white;
     padding: 7px;
+}
+
+#title {
+    text-align: center;
+    font-size: 75px;
+    margin-top: 0px;
+    padding: 20px;
+    color: white;
+    background-color: black;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.sub {
+    font-size: 35px;
 }
