@@ -9,3 +9,13 @@ body {
     color: white;
     padding: 7px;
 }
+
+#title {
+    text-align: center;
+    font-size: 75px;
+    margin-top: 0px;
+    padding: 20px;
+    color: white;
+    background-color: black;
+    font-family: 'Bebas Neue', cursive;
+}
